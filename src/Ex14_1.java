@@ -9,8 +9,11 @@ public class Ex14_1 {
         double height = sc.nextDouble();
 
         Rectangle rectangle = new Rectangle(width, height);
+
         String str = rectangle.display();
         System.out.println(str);
+        System.out.println(rectangle.getArea());
+        System.out.println(rectangle.getPerimeter());
 
     }
 }
